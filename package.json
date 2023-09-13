@@ -1,0 +1,42 @@
+{
+  "name": "locale-slug",
+  "version": "1.0.0",
+  "description": "A plugin that lets you use slug field with i18n, by forcing your slug field to follow the template `${locale}_${code}`.",
+  "strapi": {
+    "name": "locale-slug",
+    "description": "A plugin that lets you use slug field with i18n, by forcing your slug field to follow the template `${locale}_${code}`.",
+    "kind": "plugin",
+    "displayName": "locale-slug"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "4.12.1",
+    "@strapi/icons": "^1.6.3",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
